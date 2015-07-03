@@ -1,0 +1,10 @@
+
+import testing : run ;
+
+project json-parsers ;
+
+alias json-parsers : : : : <include>include
+ <toolset>gcc:<cxxflags>-Wno-unused-local-typedefs
+ <c++-template-depth>1000
+ ;
+
